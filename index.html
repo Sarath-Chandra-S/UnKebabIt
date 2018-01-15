@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Un Kebab It</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="outerContainer">
+        <fieldset>
+            <legend>
+                <h2> Un Kebab It</h2>
+            </legend>
+            <div id="inputContainer">
+                <label for="kebabText">Kebab Cased Word:</label>
+                <input type="text" id="kebabText" placeholder="stock-trading-platform">
+            </div>
+            <div id="btnContainer">
+                <input type="button" id="unKebabBtn" onclick="unKebabThis()" value="GO">
+            </div>
+            <div id="outputContainer">
+                <label for="unKebabText">UnKebab Cased Word:</label>
+                <input type="text" id="unKebabText" placeholder="StockTradingPlatform">
+            </div>
+        </fieldset>
+    </div>
+    <section class="container textContainer">
+        <p><strong>Notes: </strong></p>
+        <p>
+            This simple tool allows to convert
+            <em>
+                <strong>Kebab Cased Words</strong>
+            </em>
+            to
+            <em>
+                <strong>Un Kebab Cased Words</strong>
+            </em>, which might be useful while coding in Angular/Polymer.
+        </p>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+
+body {
+    background-color: rgb(226, 223, 223);
+}
+
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 20%;
+    border-radius: 0.5em;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+    .container div{
+        float: left;
+        margin: auto 10px;
+        width:30%;
+    }
+
+    .container input[type="text"] {
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        border-radius: 0.5em;
+        font-size: 20px;
+        margin: 10px;
+        font-weight: 200;
+    }
+    
+    .container input[type="button"] {
+        position: relative;
+        left: 40%;
+    }
+
+    .container label {
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin: 10px;
+    }
+
+#unKebabBtn {
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 15px 5px;
+    border: none;
+    padding: 30px;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.textContainer{
+    font-size: 13pt;
+    font-family: Calibri 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(54, 53, 53);
+}
+    .textContainer p:first-of-type > strong{
+        text-decoration: underline;
+    }
